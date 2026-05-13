@@ -9,27 +9,23 @@ Consultor senior para la creación de aplicaciones web multiusuario en Google Wo
 
 #### Instalación directa
 ```bash
-gemini skills install https://github.com/pfelipm/skills/raw/main/skills/gas-web-expert.skill
+gemini skills install https://github.com/pfelipm/skills --path gas-web-expert
 ```
 
 ---
 
 ## 📥 Cómo instalar una skill
 
-Puedes instalar las skills de este repositorio de dos formas:
-
-### 1. Desde el archivo .skill (Recomendado)
-Usa la URL directa al archivo binario para una instalación rápida:
+Puedes instalar las skills de este repositorio usando la URL del repositorio y el flag `--path` para indicar la carpeta de la skill:
 
 ```bash
-gemini skills install https://github.com/pfelipm/skills/raw/main/skills/NOMBRE_DE_LA_SKILL.skill
+gemini skills install https://github.com/pfelipm/skills --path NOMBRE_DE_LA_SKILL
 ```
 
-### 2. Desde la carpeta de fuentes
-Si prefieres instalar desde la carpeta de desarrollo:
+Si prefieres descargar el archivo binario `.skill` manualmente desde la carpeta `skills/`, puedes instalarlo localmente:
 
 ```bash
-gemini skills install https://github.com/pfelipm/skills.git --path NOMBRE_DE_LA_SKILL
+gemini skills install ./ruta/al/archivo/nombre-de-la-skill.skill
 ```
 
 ## 🏗️ Cómo contribuir
